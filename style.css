@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -5,15 +6,15 @@
 body {
     background: coral;
     color: #fff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: #9e8fb2;
-    background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%)cover;
-    
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    min-height: 100vh;
 }
 .logo {
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 30px;
 }
 .container {
     margin: auto;
